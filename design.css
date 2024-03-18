@@ -204,10 +204,15 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+.cardsss{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
 .cart_txt{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
+  grid-template-rows: repeat(2, 1fr);
 }
 .cart_txt h2{
   grid-row: 1;
@@ -218,51 +223,14 @@
   grid-column: 2;
 }
 .card {
-  display: grid;
-  width: 48%;
+  display: flex;
+  width: 90%;
   grid-template-rows: auto; 
   grid-template-columns: 200px 1fr;
 }
 
 .card1, .card2, .card3, .card4{
   display: contents; 
-}
-.card1{
-  grid-row: 1;
-  grid-column: 1;
-}
-.card1{
-  grid-row: 1;
-  grid-column: 2;
-}
-.card1{
-  grid-row: 2;
-  grid-column: 1;
-}
-.card1{
-  grid-row: 2;
-  grid-column: 2;
-}
-.card_img {
-  height: 100%;
-  grid-row: 1;
-  grid-column: 1;
-}
-
-.card_txt {
-  grid-row: 1; 
-  grid-column: 2;
-}
-
-
-.card_img {
-  grid-row: 1;
-  grid-column: 1;
-}
-
-.card_txt {
-  grid-row: 1; 
-  grid-column: 2;
 }
 
 .btn button{
